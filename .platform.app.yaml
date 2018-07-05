@@ -47,6 +47,7 @@ hooks:
       drush -y updatedb
       drush -y config-import
       drush -y entup
+      drush -y pm-uninstall devel_generate kint webprofiler adminimal_admin_toolbar devel admin_toolbar
 
 # The configuration of app when it is exposed to the web.
 web:
